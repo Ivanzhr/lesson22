@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: {
+        family: $font;
+        size: 18px;
+    }
+
+    line-height: 27px;
+    color: $silver;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.description {
+    margin: 40px 0;
+    font-size: 27px;
+    line-height: 40px;
+}
+
+h1 {
+    
+}
+
+h2 {
+
+}
+
+h3 {
+
+}

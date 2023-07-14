@@ -1,0 +1,56 @@
+.slider {
+    background-color: $yellow;
+    color: $black;
+    @extend %section;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &__items {
+        text-align: center;
+        width: 100%;
+        max-width: 754px;
+    }
+
+    &__item {}
+
+    &__navigation {
+        display: flex;
+        column-gap: 10px;
+        position: absolute;
+        bottom: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    &__btn {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: $white;
+        opacity: 0.5;
+        cursor: pointer;
+
+
+        &--active {
+            opacity: 1;
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+
+
+}
+
+.icons {
+    &__logo {
+        margin: 0 9px;
+    }
+}

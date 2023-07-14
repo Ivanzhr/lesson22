@@ -1,0 +1,60 @@
+.footer {
+    background-color: $black;
+    height: 100vh;
+    @extend %section;
+}
+
+.footer_header {
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.footer_header h1 {
+    color: $yellow;
+    margin-bottom: 20px;
+}
+ 
+.footer_group {
+    display: flex;
+    color: $white;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    width: 68%;
+    margin-right: 10px;
+}
+
+button {
+    width: 29%;
+    font-weight: bold;
+    background-color: $yellow;
+}
+
+.footer_group :first-child {
+    flex-basis: 40%;
+}
+
+@media screen and (max-width:920px) {
+    input, button {
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+
+    .footer_group {
+        flex-direction: column;
+        text-align: center;
+    }
+}
